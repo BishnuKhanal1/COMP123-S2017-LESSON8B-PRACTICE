@@ -18,6 +18,10 @@ namespace COMP123_S2017_LESSON8B_PRACTICE
             person.Talks(); //. is a accessor to access method
             Console.WriteLine("\n");
 
+            Student student = new Student("Erica", 5, "12354B");
+            student.Studies();
+            student.Talks();
+            Console.WriteLine("\n");
         }
     }
 }
