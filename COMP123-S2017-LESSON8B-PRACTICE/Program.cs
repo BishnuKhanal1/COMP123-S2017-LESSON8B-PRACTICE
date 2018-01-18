@@ -12,6 +12,12 @@ namespace COMP123_S2017_LESSON8B_PRACTICE
     {
         static void Main(string[] args)
         {
+            Person person = new Person("Bikalpa", 6);
+            //now provide behavour (call method)
+            Console.WriteLine("\n");
+            person.Talks(); //. is a accessor to access method
+            Console.WriteLine("\n");
+
         }
     }
 }
