@@ -22,6 +22,13 @@ namespace COMP123_S2017_LESSON8B_PRACTICE
             student.Studies();
             student.Talks();
             Console.WriteLine("\n");
+
+            DomesticStudent domesticStudent = new DomesticStudent("Bobo", 15, "1234567C");
+            domesticStudent.Talks();
+            domesticStudent.Studies();
+            domesticStudent.SetDomesticAddress("283 Pharmacy Ave");
+            Console.WriteLine();
+            Console.WriteLine("\n");
         }
     }
 }

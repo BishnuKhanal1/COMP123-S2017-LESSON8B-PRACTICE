@@ -9,7 +9,7 @@ namespace COMP123_S2017_LESSON8B_PRACTICE
     /// <summary>
     /// this is a student child class class
     /// </summary>
-    class Student : Person  //student inherits from Person parent/super class
+   public class Student : Person  //student inherits from Person parent/super class
     {
         //private instance variables/fields
         private string _studentID;
