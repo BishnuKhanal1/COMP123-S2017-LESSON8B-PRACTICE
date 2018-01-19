@@ -10,6 +10,11 @@ namespace Assgn_04_AbstractPlanets_Practice
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
+            Planet planet = new Planet("Earth", 2315478.23, 2145456863.12);
+           // planet.ToString();
+            Console.WriteLine(planet.ToString());
+            Console.WriteLine();
         }
     }
 }
