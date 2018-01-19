@@ -27,7 +27,7 @@ namespace COMP123_S2017_LESSON8B_PRACTICE
             domesticStudent.Talks();
             domesticStudent.Studies();
             domesticStudent.SetDomesticAddress("283 Pharmacy Ave");
-            Console.WriteLine();
+           
             Console.WriteLine("\n");
         }
     }
